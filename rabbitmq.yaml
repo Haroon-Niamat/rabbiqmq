@@ -74,7 +74,7 @@ spec:
             - name: RABBITMQ_DEFAULT_USER
               value: "admin"  # Set your desired username here
             - name: RABBITMQ_DEFAULT_PASS
-              value: "lT6j6MJDKfkGpZS"  # Set your desired password here
+              value: "1234"  # Set your desired password here
           volumeMounts:
             - name: rabbitmq-main-data
               mountPath: /var/lib/rabbitmq/
